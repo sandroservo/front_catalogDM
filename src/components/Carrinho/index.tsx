@@ -7,9 +7,6 @@ export function Carrinho() {
     //const {listaProduto} = useProduto();
 
 
-    const tooglefalse = () => {
-       setMenu(false) 
-    }
 
 
     //const value = useContext(DataContext)

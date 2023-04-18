@@ -13,10 +13,10 @@ export function Carrinho() {
 
 
     const value = useContext(DataContext)
-    const [menu, setMenu] = value.menu
+    //const [menu, setMenu] = value.menu
 
-    const show1 = menu ? "carrinhos show" : "carrinhos";
-    const show2 = menu ? "carrinho show" : "carrinho";
+    //const show1 = menu ? "carrinhos show" : "carrinhos";
+    //const show2 = menu ? "carrinho show" : "carrinho";
     return (
         <div className={show1}>
             <div className={show2}>

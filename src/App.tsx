@@ -14,7 +14,7 @@ function App() {
       <BrowserRouter>
         <Header />
         
-        <Paginas />
+        <Produtos />
       </BrowserRouter>
 
     </div>

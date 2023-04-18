@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom"
-import { Inicio } from "./Inicio";
+//import { Inicio } from "./Inicio";
 import { Produtos } from './Produtos';
 
 export function Paginas() {

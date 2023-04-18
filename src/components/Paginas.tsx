@@ -6,7 +6,6 @@ export function Paginas() {
     return (
         <section>
             <Routes>
-                <Route path="/" element={<Inicio />}/>
                 <Route path="/produtos" element={<Produtos />}/>
             </Routes>
         </section>

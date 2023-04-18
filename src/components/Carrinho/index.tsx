@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { ArrowDown, ArrowUp, Trash, X } from "@phosphor-icons/react";
-import { DataContext } from "../../context/Dataprovider";
+//import { DataContext } from "../../context/Dataprovider";
 import './styles.css'
 
 export function Carrinho() {
@@ -12,15 +12,15 @@ export function Carrinho() {
     }
 
 
-    const value = useContext(DataContext)
+    //const value = useContext(DataContext)
     //const [menu, setMenu] = value.menu
 
     //const show1 = menu ? "carrinhos show" : "carrinhos";
     //const show2 = menu ? "carrinho show" : "carrinho";
     return (
-        <div className={show1}>
-            <div className={show2}>
-                <div className="carrinho_close" onClick={tooglefalse}>
+        <div className="show1">
+            <div className="show2">
+                <div className="carrinho_close">
                     <X size={32} weight="fill" />
                 </div>
                 <h2>Seu carrinho</h2>
